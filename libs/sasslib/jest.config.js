@@ -1,0 +1,9 @@
+module.exports = {
+  name: 'sasslib',
+  preset: '../../jest.config.js',
+  coverageDirectory: '../../coverage/libs/sasslib',
+  snapshotSerializers: [
+    'jest-preset-angular/AngularSnapshotSerializer.js',
+    'jest-preset-angular/HTMLCommentSerializer.js'
+  ]
+};

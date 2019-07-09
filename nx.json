@@ -1,0 +1,27 @@
+{
+  "npmScope": "preprocessor",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "preprocessor": {
+      "tags": []
+    },
+    "preprocessor-e2e": {
+      "tags": []
+    },
+    "subdir-testapp-e2e": {
+      "tags": []
+    },
+    "subdir-testapp": {
+      "tags": []
+    },
+    "sasslib": {
+      "tags": []
+    }
+  }
+}
